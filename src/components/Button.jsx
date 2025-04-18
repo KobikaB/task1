@@ -8,7 +8,7 @@ const Button = () => {
     <div className='flex'>
         <p className='bg-blue-100 text-left m-2 p-2 rounded-3xl'>The most iconic and recognizable structure in Paris, the Eiffel Tower is the tallest and most frequented attraction in all of France. </p>
         <button 
-        onClick={() => setClickCount((previous) => previous + 1)} 
+        onClick={() => setClickCount(clickCount + 1)} 
         className='text-5xl wid p-2 m-2 rounded bg-blue-600 rounded-5xl hover:bg-green-700' > +</button>
 
     
